@@ -10,16 +10,36 @@ body {
   height: 100vh;
   background: rgb(73, 221, 130);
   background: linear-gradient(13deg, rgba(73, 221, 130, 1) 0%, rgba(7, 183, 210, 1) 100%);
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
 }
 
-.titulo-principal {
-  padding: 10px;
+.main-title {
+  
   color: white;
   font-weight: bold;
   font-size: 3em;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.input-wrapper {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.MuiInputBase-root{
+  background-color: white;
+  width: 100%;
+  margin: 15px 0;
+
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  display: flex !important;
+  margin-right: 10px !important;
 }
